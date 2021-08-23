@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pagination .page-box {
+    background-color: #172124;
+    margin: 0 10px;
+    height: 30px;
+    width: 30px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination .active {
+    background-color: #050b0c;
+    color: white;
+}
+.pagination .page-box span {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (max-width: 680px) {
+    .pagination .next, .pagination .previous {
+        display: none;
+    }
+}
