@@ -7,6 +7,7 @@ header {
     display: flex;
     align-items: center;
     font-size: 3rem;
+    cursor: pointer;
 }
 .logo-content img {
     margin-right: 20px;
@@ -28,8 +29,6 @@ header {
     }
 
     .logo-content {
-        display: flex;
-        align-items: center;
         font-size: 2rem;
     }
     .logo-content img {
