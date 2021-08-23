@@ -1,4 +1,4 @@
-.container {
+.grid-container {
     display: grid;
     padding: 5vh 0;
     grid-template-columns: repeat(4, 1fr);
