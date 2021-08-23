@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
-import { GlobalStorage } from './Context/GlobalContext';
+import Footer from './Components/Footer';
 
 import './App.css';
 
@@ -11,12 +11,13 @@ import Home from './Pages/Home';
 function App() {  
   return (
     <BrowserRouter>
-      <GlobalStorage>
         <Header />
+
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </GlobalStorage>
+
+        <Footer />
     </BrowserRouter>
   )
 }

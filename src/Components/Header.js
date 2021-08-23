@@ -1,5 +1,4 @@
 import React from 'react';
-import SwitchToggle from './Helpers/SwitchToggle';
 
 import './Header.css';
 
@@ -11,11 +10,6 @@ const Header = () => {
                 <img src="snorlax_64.png" alt="Snorlax" />
                 
                 <h3>Pokedex</h3>
-            </div>
-
-            <div className="toggle-mode">
-                <small>Beautiful &#10024;</small>
-                <SwitchToggle />
             </div>
         </header>
     );
