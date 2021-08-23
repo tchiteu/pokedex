@@ -12,7 +12,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, hgroup,
+figure, figcaption, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -45,7 +45,7 @@ table {
 body {
     font-family: 'Comfortaa', sans-serif;
     color: #f4dfc2;
-	padding: 5vh 10vw 0 10vw;
+	padding: 5vh 10vw 2vh 10vw;
 	margin: 0;
 }
 

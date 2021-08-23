@@ -1,0 +1,187 @@
+.card {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    align-items: center;
+}
+.card *:hover, .card:hover {
+    cursor: pointer;
+}
+
+.card .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box img {
+    width: 100%;
+}
+
+.card .details-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card .details-box label {
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #172124;
+}
+.card .details-box .types {
+    display: flex;
+    width: 100%;
+}
+.card .details-box .types img {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/* Types */
+
+.type-normal, .type-unknown {
+    background-color: #dfcd9ac3;
+    border: solid #dfcd9a 2px;
+}
+.type-normal:hover, .type-unknown:hover {
+    background-color: #dfcd9a;
+}
+
+.type-fighting {
+    background-color: #c43003c3;
+    border: solid #c43003 2px;
+}
+.type-fighting:hover {
+    background-color: #c43003;
+}
+
+.type-flying {
+    background-color: #95aee7c3;
+    border: solid #95aee7 2px;
+}
+.type-flying:hover {
+    background-color: #95aee7;
+}
+
+.type-poison {
+    background-color: #a664bec3;
+    border: solid #a664be 2px;
+}
+.type-poison:hover {
+    background-color: #a664be;
+}
+
+.type-ground {
+    background-color: #dc7f46c3;
+    border: solid #dc7f46 2px;
+}
+.type-ground:hover {
+    background-color: #dc7f46;
+}
+
+.type-rock {
+    background-color: #c9b88dc3;
+    border: solid #c9b88d 2px;
+}
+.type-rock:hover {
+    background-color: #c9b88d;
+}
+
+.type-bug {
+    background-color: #95bf2dc3;
+    border: solid #95bf2d 2px;
+}
+.type-bug:hover {
+    background-color: #95bf2d;
+}
+
+.type-ghost {
+    background-color: #4f6cb0c3;
+    border: solid #4f6cb0 2px;
+}
+.type-ghost:hover {
+    background-color: #4f6cb0;
+}
+
+.type-steel {
+    background-color: #85a6b5c3;
+    border: solid #85a6b5 2px;
+}
+.type-steel:hover {
+    background-color: #85a6b5;
+}
+
+.type-fire {
+    background-color: #f04f0ec3;
+    border: solid #f04f0e 2px;
+}
+.type-fire:hover {
+    background-color: #f04f0e;
+}
+       
+.type-water {
+    background-color: #5ba8dcc3;
+    border: solid #5ba8dc 2px;
+}
+.type-water:hover {
+    background-color: #5ba8dc;
+}
+
+.type-grass {
+    background-color: #62b750c3;
+    border: solid #62b750 2px;
+}
+.type-grass:hover {
+    background-color: #62b750;
+}
+
+.type-electric {
+    background-color: #f9d654c3;
+    border: solid #f9d654 2px;
+}
+.type-electric:hover {
+    background-color: #f9d654;
+}
+
+.type-psychic {
+    background-color: #f48278c3;
+    border: solid #f48278 2px;
+}
+.type-psychic:hover {
+    background-color: #f48278;
+}
+
+.type-ice {
+    background-color: #78d4c5c3;
+    border: solid #78d4c5 2px;
+}
+.type-ice:hover {
+    background-color: #78d4c5;
+}
+
+.type-dragon {
+    background-color: #0678bfc3;
+    border: solid #0678bf 2px;
+}
+.type-dragon:hover {
+    background-color: #0678bf;
+}
+
+.type-dark, .type-shadow {
+    background-color: #5e5f73c3;
+    border: solid #5e5f73 2px;
+}
+.type-dark:hover, .type-shadow:hover {
+    background-color: #5e5f73;
+}
+
+.type-fairy {
+    background-color: #ed9ac3e0;
+    border: solid #ed9a 2px;
+}
+.type-fairy:hover {
+    background-color: #ed9ae0;
+}

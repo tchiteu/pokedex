@@ -1,0 +1,39 @@
+.notfound-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 45px;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.notfound-container img {
+    width: 300px;
+    margin: 25px;
+}
+
+.notfound-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: none;
+    background-color: #006a6b;
+    color: #f4dfc2;
+    border: solid 1px #0c1e1e;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px) {
+    .notfound-container {
+        font-size: 1rem;
+    }
+
+    .notfound-container img {
+        width: 250;
+        margin: 25px;
+    }
+    
+}

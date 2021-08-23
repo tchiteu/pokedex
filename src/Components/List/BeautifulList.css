@@ -1,4 +1,4 @@
-.container {
+.grid-container {
     display: grid;
     padding: 5vh 0;
     grid-template-columns: repeat(4, 1fr);
@@ -6,21 +6,21 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .container {
+    .grid-container {
         grid-template-columns: repeat(3, calc(33% - 30px));
         gap: 30px;
     }
 }
 
 @media only screen and (max-width: 1120px) {
-    .container {
+    .grid-container {
         grid-template-columns: repeat(2, calc(50% - 22.5px));
         gap: 25px;
     }
 }
 
 @media only screen and (max-width: 680px) {
-    .container {
+    .grid-container {
         grid-template-columns: 100%;
         gap: 20px;
     }

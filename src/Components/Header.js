@@ -1,21 +1,21 @@
 import React from 'react';
-import SwitchToggle from './Helpers/SwitchToggle';
+import { useNavigate } from 'react-router-dom';
 
 import './Header.css';
 
 const Header = () => {
+    const navigate = useNavigate();
     
+    function goHome() {
+        navigate('/');
+    }
+
     return (
         <header>
-            <div className="logo-content">
-                <img src="snorlax_64.png" alt="Snorlax" />
+            <div className="logo-content" onClick={goHome}>
+                <img src="/snorlax_64.png" alt="Snorlax" />
                 
                 <h3>Pokedex</h3>
-            </div>
-
-            <div className="toggle-mode">
-                <small>Beautiful &#10024;</small>
-                <SwitchToggle />
             </div>
         </header>
     );
