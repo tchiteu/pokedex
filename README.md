@@ -1,6 +1,6 @@
 
 
-[alt text](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png) ### Pokedex
+![alt text](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png) ### Pokedex
 
 ## Scripts
 
