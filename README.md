@@ -1,7 +1,3 @@
-
-
-![alt text](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png) ### Pokedex
-
 ## Scripts
 
 ### `npm install`
@@ -16,17 +12,17 @@ Runs the app in the development mode.
 
 Builds the app for production to the `build` folder.
 
-```
+
+
 ## My Tasks
 
 ### Completed
-  - [✓] Responsive  
-  - [✓] Pagination
-  - [✓] use React Hooks
-  - [✓] use React Router
+  - [x] Responsive  
+  - [x] Pagination
+  - [x] use React Hooks
+  - [x] use React Router
 
 ### Todo
   - [ ] Redux
   - [ ] Tests
 
-```
