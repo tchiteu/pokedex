@@ -32,6 +32,10 @@ header {
         align-items: center;
         font-size: 2rem;
     }
+    .logo-content img {
+        margin-right: 5px;
+        width: 58px;
+    }
 
     .toggle-mode small {
         font-size: .7rem;
