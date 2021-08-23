@@ -1,7 +1,7 @@
 import React from 'react';
 import useFetch from '../Hooks/useFetch';
-import BeautifulTable from '../Components/Tables/BeautifulList';
-import Pagination from '../Components/Tables/Pagination';
+import BeautifulTable from '../Components/List/BeautifulList';
+import Pagination from '../Components/List/Pagination';
 
 import './Home.css';
 
