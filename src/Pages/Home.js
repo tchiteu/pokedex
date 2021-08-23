@@ -4,8 +4,6 @@ import BeautifulList from '../Components/List/BeautifulList';
 import Pagination from '../Components/List/Pagination';
 import Loading from '../Components/Helpers/Loading';
 
-import './Home.css';
-
 function Home() {
     const { request, error } = useFetch();
     const [loading, setLoading] = React.useState(false);
