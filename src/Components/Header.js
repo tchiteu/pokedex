@@ -1,5 +1,5 @@
 import React from 'react';
-import SwitchToggle from './SwitchToggle';
+import SwitchToggle from './Helpers/SwitchToggle';
 
 import './Header.css';
 
