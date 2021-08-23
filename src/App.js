@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
 
 import './App.css';
 
 // Routes
 import Home from './Pages/Home';
+import Details from './Pages/Details';
 
 function App() {  
   return (
@@ -15,9 +15,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/details/:name" element={<Details />} />
         </Routes>
-
-        <Footer />
     </BrowserRouter>
   )
 }
