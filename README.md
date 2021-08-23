@@ -20,8 +20,8 @@ Builds the app for production to the `build` folder.
 ### Completed
   - [✓] Responsive  
   - [✓] Pagination
-  - [✓] Pagination
-  - [✓] Pagination
+  - [✓] use React Hooks
+  - [✓] use React Router
 
 ### Todo
   - [ ] Redux
