@@ -15,7 +15,7 @@ const Header = () => {
             <div className="logo-content" onClick={goHome}>
                 <img src="/snorlax_64.png" alt="Snorlax" />
                 
-                <h3>Pokedex</h3>
+                <h3>Poketest</h3>
             </div>
         </header>
     );
