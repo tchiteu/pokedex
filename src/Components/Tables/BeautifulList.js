@@ -1,14 +1,16 @@
 import React from "react";
-import useFetch from "../Hooks/useFetch";
+import useFetch from "../../Hooks/useFetch";
+import PokemonCard from "./PokemonCard";
 
-function BeautifulTable({ pokemons }) {
-    const { request, data: aaii, loading, error } = useFetch();
+import './BeautifulList.css';
+
+function BeautifulList({ pokemons }) {
+    const { request, loading, error } = useFetch();
     const [pokemonList, setPokemonList] = React.useState([]);
 
     React.useEffect(() => {
         async function fetchPokemonDetails(pokemon) {
             const { json } = await request(pokemon.url);
-            
             setPokemonList(pokemonList => [...pokemonList, json]);
         }
         
@@ -19,9 +21,13 @@ function BeautifulTable({ pokemons }) {
   
     if (pokemonList.length) {
         return (
-            pokemonList.map(pokemon => (
-                <span key={pokemon.name}>{pokemon.name}</span>
-            ))
+            <section className="container">
+                {pokemonList.map(pokemon => (
+                    <div className="item" key={pokemon.name}>
+                        <PokemonCard pokemon={pokemon} />
+                    </div>
+                ))}
+            </section>
         )
     }
     else if (error) {
@@ -39,4 +45,4 @@ function BeautifulTable({ pokemons }) {
     }
 }
 
-export default BeautifulTable;
+export default BeautifulList;
