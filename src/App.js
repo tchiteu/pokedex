@@ -7,6 +7,7 @@ import './App.css';
 // Routes
 import Home from './Pages/Home';
 import Details from './Pages/Details';
+import NotFound from './Pages/NotFound';
 
 function App() {  
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/details/:name" element={<Details />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
     </BrowserRouter>
   )
