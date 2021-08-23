@@ -1,9 +1,9 @@
 import React from 'react';
-import { GlobalContext } from '../Context/GlobalContext';
+import { GlobalContext } from '../../Context/GlobalContext';
 
 import './SwitchToggle.css'; 
 
-function SwitchToggle({ value = false }) {
+function SwitchToggle() {
     const global = React.useContext(GlobalContext);
 
     return (

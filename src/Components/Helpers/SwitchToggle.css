@@ -34,7 +34,7 @@
 }
 
 input:checked + .slider {
-  background-color: #59b1c9;
+  background-color: #009be8;
 }
 input:focus + .slider {
   box-shadow: 0 0 1px #0b1a1f;

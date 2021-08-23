@@ -1,5 +1,5 @@
 import React from "react";
-import useFetch from "../Hooks/useFetch";
+import useFetch from "../../Hooks/useFetch";
 import PokemonCard from "./PokemonCard";
 
 import './BeautifulList.css';
