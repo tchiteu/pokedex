@@ -16,10 +16,6 @@ function Home() {
     React.useEffect(() => {
         setPokemonList([]);
 
-        async function orderPokemons() {
-
-        }
-
         async function fetchPokemons() {
             setLoading(true);
 
